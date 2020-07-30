@@ -19,6 +19,7 @@ public class base {
 		cp.setCapability(MobileCapabilityType.AUTOMATION_NAME,"Uiautomator2");
 		cp.setCapability(MobileCapabilityType.APP,fs.getAbsolutePath());
 		 driver = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"), cp);
+		 System.out.println("https://github.com/sudheerqaselenium");
 		    return driver;
 		
 }
