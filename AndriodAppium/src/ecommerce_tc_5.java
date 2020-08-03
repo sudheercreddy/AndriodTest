@@ -39,7 +39,7 @@ public class ecommerce_tc_5 extends BaseCode {
 	public static void main(String[] args) throws MalformedURLException, InterruptedException {
 
 		AndroidDriver<AndroidElement> driver = capabilities();
-
+System.out.println("hello");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 		driver.findElement(By.id("com.androidsample.generalstore:id/nameField")).sendKeys("Hello");
