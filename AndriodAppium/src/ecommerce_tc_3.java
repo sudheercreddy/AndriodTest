@@ -10,7 +10,6 @@ import io.appium.java_client.android.AndroidDriver;
 
 import io.appium.java_client.android.AndroidElement;
 
-
 public class ecommerce_tc_3 extends BaseCode {
 
 	public static void main(String[] args) throws MalformedURLException, InterruptedException {
@@ -64,7 +63,6 @@ public class ecommerce_tc_3 extends BaseCode {
 		driver.findElement(By.id("com.androidsample.generalstore:id/appbar_btn_cart")).click();
 
 		String lastpageText = driver.findElement(By.id("com.androidsample.generalstore:id/productName")).getText();
-		
 
 	}
 
